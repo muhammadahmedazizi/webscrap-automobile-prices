@@ -16,7 +16,7 @@ base_filename = now.strftime("%d%m%Y-%H%M%S")
 basefilename = 'TCM-Price_list-'+base_filename
 extension ="csv"
 dir_name = 'Price-List-Output-Direcotry'
-filename = os.path.join(dir_name, base_filename + "." + extension)
+filename = os.path.join(dir_name, basefilename + "." + extension)
 
 ############
 
